@@ -1,0 +1,19 @@
+{
+  "name": "vue-less-reactivity",
+  "version": "1.0.0",
+  "description": "using vue reactivity without the vue template / component, like in ts-node for example",
+  "main": "main.js",
+  "scripts": {
+    "serve": "ts-node main.ts",
+    "start": "ts-node main.ts"
+  },
+  "author": "@spencercap",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@vue/reactivity": "^3.0.5",
+    "@vue-reactivity/watch": "^0.1.6",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  }
+}
